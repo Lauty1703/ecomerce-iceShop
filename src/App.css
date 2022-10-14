@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
+{
+ 
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+html {
+  font-size: 62.5%; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title-icono{
+  font-size: 3rem;
+  font-weight: 800;
 }
-
-.App-link {
-  color: #61dafb;
+.title-shop{
+  color: rgb(195, 115, 211);
 }
+.nav-link {
+  font-size: 2rem;
+  color: black;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.nav-link:hover{
+  color:rgb(194, 194, 194)
+}
+.icono-carrito{
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+#card{
+  width: 25rem;
+}
+.btn-card-container{
+  margin: 0 auto;
+  width: 250px;
+}
+.btn{
+  margin: 2px 25px;
+  color: #4f92f6;
+  font-size: 2rem;
+  border: none;
+  padding: 5px 20px;
+}
+.btn-carrito{
+  margin: 5px 0px;
+  padding: 10px 28px;
+  color: #4f92f6;
+  border-color:  #4f92f6;
+  border-radius: 10px;
+  font-size: 25px;
 }
